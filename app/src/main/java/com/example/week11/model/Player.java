@@ -30,7 +30,9 @@ public class Player implements SoccerEntity {
     }
 
     // Getters
-    public int getAge() { return age; }
+    public int getAge() {
+        return age; }
+
     public String getNationality() {
         return nationality; }
 

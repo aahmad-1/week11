@@ -1,6 +1,5 @@
 package com.example.week11.model;
 
-// Match.java
 public class Match implements SoccerEntity {
     private String homeTeam, awayTeam, score, competition, date, stadium;
 

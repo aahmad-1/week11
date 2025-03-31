@@ -1,6 +1,6 @@
 package com.example.week11.model;
 
-// Team.java
+
 public class Team implements SoccerEntity {
     private String name, country, league, stadium;
     private int foundedYear;
@@ -25,13 +25,16 @@ public class Team implements SoccerEntity {
         return name;
     }
 
-    // Getters and setters for all fields
+    // Getters and setters \
     public String getCountry() {
         return country; }
+
     public String getLeague() {
         return league; }
+
     public String getStadium() {
         return stadium; }
+
     public int getFoundedYear() {
         return foundedYear; }
 }
