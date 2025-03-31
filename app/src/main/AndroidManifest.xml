@@ -4,7 +4,7 @@
     package="com.example.week11">
 
     <application
-        android:name=".repos.SoccerApp"
+        android:name=".data_management.SoccerApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"

@@ -20,8 +20,8 @@ import java.util.List;
 import android.widget.Spinner;
 
 import com.example.week11.R;
-import com.example.week11.repos.Repository;
-import com.example.week11.repos.SoccerApp;
+import com.example.week11.data_management.Repository;
+import com.example.week11.data_management.SoccerApp;
 import com.example.week11.adapters.TeamsAdapter;
 import com.example.week11.model.Team;
 
