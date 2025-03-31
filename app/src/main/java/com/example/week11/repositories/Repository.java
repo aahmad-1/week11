@@ -1,4 +1,4 @@
-package com.example.week11;
+package com.example.week11.repositories;
 
 import com.example.week11.model.SoccerEntity;
 
