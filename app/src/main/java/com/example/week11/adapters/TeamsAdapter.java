@@ -63,10 +63,10 @@ public class TeamsAdapter extends RecyclerView.Adapter<TeamsAdapter.TeamViewHold
 
         public void bind(Team team) {
             nameTextView.setText(team.getName());
-            countryTextView.setText(team.getCountry());
-            leagueTextView.setText(team.getLeague());
-            stadiumTextView.setText(team.getStadium());
-            foundedTextView.setText(String.valueOf(team.getFoundedYear()));
+            countryTextView.setText("Country: " + team.getCountry());
+            leagueTextView.setText("League: " + team.getLeague());
+            stadiumTextView.setText("Stadium: " + team.getStadium());
+            foundedTextView.setText("Year founded: " + String.valueOf(team.getFoundedYear()));
         }
     }
 }
