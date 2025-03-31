@@ -6,10 +6,10 @@ public class Player implements SoccerEntity {
 
     public Player(String name, int age, String nationality, String position, String team, int jerseyNumber) {
         if (name == null || name.isEmpty()) {
-            throw new IllegalArgumentException("Player name cannot be null or empty");
+            throw new IllegalArgumentException("The player name can't be null or empty");
         }
         if (age <= 0) {
-            throw new IllegalArgumentException("Player age must be positive");
+            throw new IllegalArgumentException("The player age must be positive");
         }
         this.name = name;
         this.age = age;
