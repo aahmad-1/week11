@@ -31,8 +31,15 @@ public class Player implements SoccerEntity {
 
     // Getters
     public int getAge() { return age; }
-    public String getNationality() { return nationality; }
-    public String getPosition() { return position; }
-    public String getTeam() { return team; }
-    public int getJerseyNumber() { return jerseyNumber; }
+    public String getNationality() {
+        return nationality; }
+
+    public String getPosition() {
+        return position; }
+
+    public String getTeam() {
+        return team; }
+
+    public int getJerseyNumber() {
+        return jerseyNumber; }
 }

@@ -26,8 +26,12 @@ public class Team implements SoccerEntity {
     }
 
     // Getters and setters for all fields
-    public String getCountry() { return country; }
-    public String getLeague() { return league; }
-    public String getStadium() { return stadium; }
-    public int getFoundedYear() { return foundedYear; }
+    public String getCountry() {
+        return country; }
+    public String getLeague() {
+        return league; }
+    public String getStadium() {
+        return stadium; }
+    public int getFoundedYear() {
+        return foundedYear; }
 }

@@ -30,10 +30,21 @@ public class Match implements SoccerEntity {
     }
 
     // Getters and setters for all fields
-    public String getHomeTeam() { return homeTeam; }
-    public String getAwayTeam() { return awayTeam; }
-    public String getScore() { return score; }
-    public String getCompetition() { return competition; }
-    public String getDate() { return date; }
-    public String getStadium() { return stadium; }
+    public String getHomeTeam() {
+        return homeTeam; }
+
+    public String getAwayTeam() {
+        return awayTeam; }
+
+    public String getScore() {
+        return score; }
+
+    public String getCompetition() {
+        return competition; }
+
+    public String getDate() {
+        return date; }
+
+    public String getStadium() {
+        return stadium; }
 }
