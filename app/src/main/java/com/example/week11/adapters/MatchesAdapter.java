@@ -62,10 +62,10 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.MatchVie
 
         public void bind(Match match) {
             teamsTextView.setText(match.getHomeTeam() + " vs " + match.getAwayTeam());
-            scoreTextView.setText(match.getScore());
-            competitionTextView.setText(match.getCompetition());
-            dateTextView.setText(match.getDate());
-            venueTextView.setText(match.getVenue());
+            scoreTextView.setText("Score: " + match.getScore());
+            competitionTextView.setText("Tournament: " + match.getCompetition());
+            dateTextView.setText("Date: " + match.getDate());
+            venueTextView.setText("Venue: " + match.getVenue());
         }
     }
 }
