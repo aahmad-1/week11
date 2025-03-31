@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Soccer Team Manager</string>
+
+    <string-array name="player_sort_options">
+        <item>Name (A-Z)</item>
+        <item>Name (Z-A)</item>
+        <item>Age (Youngest)</item>
+        <item>Age (Oldest)</item>
+        <item>Position</item>
+        <item>Team</item>
+    </string-array>
+
+    <string-array name="team_sort_options">
+        <item>Name (A-Z)</item>
+        <item>Name (Z-A)</item>
+        <item>Country</item>
+        <item>League</item>
+        <item>Founded (Oldest)</item>
+        <item>Founded (Newest)</item>
+    </string-array>
+
+    <string-array name="match_sort_options">
+        <item>Date (Recent)</item>
+        <item>Date (Oldest)</item>
+        <item>Home Team</item>
+        <item>Away Team</item>
+        <item>Competition</item>
+    </string-array>
+</resources>
