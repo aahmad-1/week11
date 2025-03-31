@@ -64,11 +64,11 @@ public class PlayersAdapter extends RecyclerView.Adapter<PlayersAdapter.PlayerVi
 
         public void bind(Player player) {
             nameTextView.setText(player.getName());
-            ageTextView.setText(String.valueOf(player.getAge()));
+            ageTextView.setText("Age: " + String.valueOf(player.getAge()));
             nationalityTextView.setText("From: " + player.getNationality());
-            positionTextView.setText(player.getPosition());
-            teamTextView.setText(player.getTeam());
-            jerseyTextView.setText(String.valueOf(player.getJerseyNumber()));
+            positionTextView.setText("Position: " + player.getPosition());
+            teamTextView.setText("Team: " + player.getTeam());
+            jerseyTextView.setText("Jersey number: " + String.valueOf(player.getJerseyNumber()));
         }
     }
 }
