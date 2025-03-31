@@ -2,9 +2,9 @@ package com.example.week11.model;
 
 // Match.java
 public class Match implements SoccerEntity {
-    private String homeTeam, awayTeam, score, competition, date, venue;
+    private String homeTeam, awayTeam, score, competition, date, stadium;
 
-    public Match(String homeTeam, String awayTeam, String score, String competition, String date, String venue) {
+    public Match(String homeTeam, String awayTeam, String score, String competition, String date, String stadium) {
         if (homeTeam == null || homeTeam.isEmpty()) {
             throw new IllegalArgumentException("Home team cannot be null or empty");
         }
@@ -16,7 +16,7 @@ public class Match implements SoccerEntity {
         this.score = score;
         this.competition = competition;
         this.date = date;
-        this.venue = venue;
+        this.stadium = stadium;
     }
 
     @Override
@@ -35,5 +35,5 @@ public class Match implements SoccerEntity {
     public String getScore() { return score; }
     public String getCompetition() { return competition; }
     public String getDate() { return date; }
-    public String getVenue() { return venue; }
+    public String getStadium() { return stadium; }
 }

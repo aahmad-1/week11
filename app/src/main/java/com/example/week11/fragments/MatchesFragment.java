@@ -86,7 +86,7 @@ public class MatchesFragment extends Fragment {
                 match.getHomeTeam().toLowerCase().contains(query.toLowerCase()) ||
                         match.getAwayTeam().toLowerCase().contains(query.toLowerCase()) ||
                         match.getCompetition().toLowerCase().contains(query.toLowerCase()) ||
-                        match.getVenue().toLowerCase().contains(query.toLowerCase())
+                        match.getStadium().toLowerCase().contains(query.toLowerCase())
         );
         adapter.updateData(filtered);
     }
