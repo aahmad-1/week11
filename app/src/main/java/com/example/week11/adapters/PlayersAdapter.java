@@ -47,6 +47,7 @@ public class PlayersAdapter extends RecyclerView.Adapter<PlayersAdapter.PlayerVi
     static class PlayerViewHolder extends RecyclerView.ViewHolder {
         private TextView nameTextView;
         private TextView ageTextView;
+        private TextView nationalityTextView;
         private TextView positionTextView;
         private TextView teamTextView;
         private TextView jerseyTextView;
@@ -55,6 +56,7 @@ public class PlayersAdapter extends RecyclerView.Adapter<PlayersAdapter.PlayerVi
             super(itemView);
             nameTextView = itemView.findViewById(R.id.playerName);
             ageTextView = itemView.findViewById(R.id.playerAge);
+            nationalityTextView = itemView.findViewById(R.id.playerNationality);
             positionTextView = itemView.findViewById(R.id.playerPosition);
             teamTextView = itemView.findViewById(R.id.playerTeam);
             jerseyTextView = itemView.findViewById(R.id.playerJersey);
@@ -63,6 +65,7 @@ public class PlayersAdapter extends RecyclerView.Adapter<PlayersAdapter.PlayerVi
         public void bind(Player player) {
             nameTextView.setText(player.getName());
             ageTextView.setText(String.valueOf(player.getAge()));
+            nationalityTextView.setText("From: " + player.getNationality());
             positionTextView.setText(player.getPosition());
             teamTextView.setText(player.getTeam());
             jerseyTextView.setText(String.valueOf(player.getJerseyNumber()));
