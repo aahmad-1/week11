@@ -11,7 +11,9 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
+        android:background="#000000"
+        app:titleTextColor="#FFFFFF"
+        app:titleCentered="true"
         app:title="Soccer Team Manager" />
 
     <com.google.android.material.tabs.TabLayout
