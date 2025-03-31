@@ -7,7 +7,7 @@ public class Team implements SoccerEntity {
 
     public Team(String name, String country, String league, String stadium, int foundedYear) {
         if (name == null || name.isEmpty()) {
-            throw new IllegalArgumentException("Team name cannot be null or empty");
+            throw new IllegalArgumentException("The team name can't be null or empty");
         }
         this.name = name;
         this.country = country;
