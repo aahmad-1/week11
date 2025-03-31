@@ -1,4 +1,4 @@
-package com.example.week11.repositories;
+package com.example.week11.repos;
 
 import android.app.Application;
 

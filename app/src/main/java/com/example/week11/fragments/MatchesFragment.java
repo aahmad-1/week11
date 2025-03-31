@@ -16,8 +16,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.week11.R;
-import com.example.week11.repositories.Repository;
-import com.example.week11.repositories.SoccerApp;
+import com.example.week11.repos.Repository;
+import com.example.week11.repos.SoccerApp;
 import com.example.week11.adapters.MatchesAdapter;
 import com.example.week11.model.Match;
 

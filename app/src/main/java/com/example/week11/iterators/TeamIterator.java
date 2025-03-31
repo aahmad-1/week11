@@ -1,4 +1,4 @@
-package com.example.week11;
+package com.example.week11.iterators;
 
 import java.util.List;
 import com.example.week11.model.Team;
