@@ -1,4 +1,4 @@
-package com.example.week11;  // Add this line at the top
+package com.example.week11;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
